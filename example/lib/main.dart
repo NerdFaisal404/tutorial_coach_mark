@@ -220,6 +220,7 @@ class _MyHomePageState extends State<MyHomePage> {
       targets: targets,
       colorShadow: Colors.red,
       textSkip: "SKIP",
+      textNext: "Next",
       paddingFocus: 10,
       opacityShadow: 0.8,
       onFinish: () {
@@ -233,6 +234,9 @@ class _MyHomePageState extends State<MyHomePage> {
       },
       onSkip: () {
         print("skip");
+      },
+      onNext: () {
+        print("Next");
       },
     )..show();
   }
